@@ -27,23 +27,23 @@
 # code. If you step into a function, it will show each line of code in the 
 # function as well. 
 
-#has_error = True
+'''has_error = True
 
-#while has_error:
-    #try:
-        #number = int(input("Enter a number: "))
-        #print(number)
+while has_error:
+    try:
+        number = int(input("Enter a number: "))
+        print(number)
 
-        #has_error = False
+        has_error = False
 
-    #except ValueError:
-        #print("Invalid entry. Please try again with a numberical positive entry.")
-    #except KeyboardInterrupt:
-        #print("You you stopped the program")
-        #break
-    #except:
-        #print("You got some rando error")
-        #break
+    except ValueError:
+        print("Invalid entry. Please try again with a numberical positive entry.")
+    except KeyboardInterrupt:
+        print("You you stopped the program")
+        break
+    except:
+        print("You got some rando error")
+        break'''
 
 def withdraw(amount, balance):
     if amount > balance:
